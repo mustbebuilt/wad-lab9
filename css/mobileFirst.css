@@ -1,0 +1,127 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	/* base font of 14 pixels - then use ems */
+	font-size:14px;	
+	color:#545454;
+	background-color: #ffffff;
+	margin:0;
+	padding:0;
+}
+#container{
+	margin:0 auto;
+	width:100%;
+}
+header{
+	background: #CF4A41;
+}
+#logo{
+	padding:10px;
+	font-size:0.8em;
+	background:none;
+	color:#fff;
+}
+nav {
+	height:auto;
+	padding: 10px 0px 10px 0px;
+	background-color: #15384C;
+}
+#content{
+	padding: 10px 20px 10px 20px;
+}
+#content img{
+	width: 80%;
+	height: 80%;	
+}
+nav ul{
+	margin:0;
+	padding:0;
+}
+nav ul li{
+	display:block;
+	margin: 0 15px 15px 15px;
+	padding: 5px;
+	color: #a6abc5;
+	border: 1px solid #ffffff;
+}
+nav ul li a{
+	text-decoration:none;
+	display:block;
+}
+nav ul li a:link, nav ul li a:visited{
+	color:#ffffff;	
+}
+.three-column {
+	padding: 0px;
+}
+.three-column .box {
+	width: auto;
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid #ccc;
+}
+.boxContent{
+	padding: 0px 20px;
+}
+#box1, #box2, #box3{
+	background: none;
+}
+.sideBar, .three-column{
+	padding:10px 20px;
+}
+.sideBarList{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.sideBarList li {
+	padding: 20px 0px 20px 0px;
+	border-top: 1px solid #DEDEDE;
+}
+
+.sideBarList a {
+	text-decoration: none;
+	color: #545454;
+}
+
+.sideBarList a:hover {
+	text-decoration: underline;
+}
+
+.sideBarList li:first-child {
+	padding-top: 0px;
+	border-top: none;
+}
+.button-style{
+	background-color: #cf4a41;
+	padding: 7px 20px;
+	display:inline-block;
+	margin-top: 20px;
+	text-decoration: none;
+	color:#ffffff;
+	border-radius: 5px;
+	box-shadow:4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+	transition: all 0.5s;
+}
+.button-style:hover{
+	background-color: #F2E96B;
+	color:#000;
+	transition: all ease-out 0.5s;
+}
+abbr, code{
+	font-family:courier, monotype;
+	
+}
+abbr{
+	border-bottom: .1em dotted;
+	text-transform:uppercase;
+}
+footer{
+	padding: 0px 20px;
+	text-align:center;	
+	font-size:0.8em;
+}
+
+
+
